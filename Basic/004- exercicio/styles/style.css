@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h3{
+    margin: 20px;
+}
+.tiposTriangulo{
+    display: block;
+    float: left;
+    height: 90px;
+}
+input[type="text"]{
+    margin-right: 30px;
+    margin-top: 10px;
+    height: 25px;
+    border: solid 1px black;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+}
+label{
+    margin-left: 10px;
+}
+.resultado{
+    display: flex;
+    width: 300px;
+    height: 90px;
+}
+img{
+    width: 150px;
+}
+.btn{
+    background: #aaa4a4;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
