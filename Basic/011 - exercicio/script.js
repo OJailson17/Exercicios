@@ -6,3 +6,6 @@ function sentence(str){
 }
 
 console.log(sentence('hello world!, olá mundo'));
+
+//output
+//4
