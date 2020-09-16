@@ -6,10 +6,10 @@ let operações = {
 
     // Functions
     soma: function(){
-        return this.x() + this.y();
+        return this.x + this.y;
     },
     multiplicação: function(){
-        return this.x() * this.y();
+        return this.x * this.y;
     },
     divisão:  function(){
         if(this.x > this.y){
@@ -19,8 +19,11 @@ let operações = {
         }
     },
     subtração: function(){
-        return this.x() - this.y();
+        return this.x - this.y;
     }
 }
 
-console.log(operações.divisão());
+console.log(operações.soma()); //20
+console.log(operações.multiplicação()); //75
+console.log(operações.divisão()); //3
+console.log(operações.subtração()); // 10
